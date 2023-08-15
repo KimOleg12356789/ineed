@@ -1,0 +1,443 @@
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1024px) {
+    .c-footer__menu-link, .c-footer__text {
+        margin-right: 17px;
+    }
+
+    .header_form_input input {
+        width: 180px;
+    }
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+
+  
+
+    .contacts-section__form {
+        background: #e5e4f3;
+        border: 1px solid #e8e8e8;
+        border-radius: 6px;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 30px;
+        width: 100%;
+    }
+
+    .contacts-section__form {
+        background: #e5e4f3;
+        border: 1px solid #e8e8e8;
+        border-radius: 6px;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 10px 20px 30px 20px;
+        width: 100%;
+    }
+
+    .c-footer__content {
+     
+        padding: 15px 30px;
+    }
+    .c-main-search__form {
+        margin: 0 0 10px 0;
+    }
+
+    body {
+        min-width: 100%;
+    }
+    .c-main-header__cell, .c-main-header__row {
+        display: block;
+        margin: 0 0 10px 0;
+    }
+
+    .header_form {
+        display: block;
+        width: 100%;
+    }
+
+    .c-main-search__row {
+        display: block;
+    }
+
+    .c-main-search__cell {
+        -webkit-box-flex: 2;
+        -ms-flex: 2;
+        flex: 2;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        margin-left: 0px;
+    }
+
+    .c-footer__content {
+        display: flex;
+        align-items: center;
+    }
+
+    .grid-common__col-6 {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .snippet-small {
+        display: block;
+    }
+
+    .snippet-small__bar {
+        border-top: 0;
+        display: block;
+        float: left;
+        margin-top: 0;
+        padding: 10px 0 0 0px;
+        text-align: left;
+        width: 176px;
+    }
+
+    .snippet-small__actions {
+        display: block;
+        padding: 12px;
+        position: absolute;
+        left: -15px;
+        top: 0;
+        width: 36px;
+        z-index: 1;
+    }
+
+    .snippet-small {
+        margin: 0 0 10px 0;
+        padding: 21px 15px 19px 55px;
+    }
+
+    .c-footer__menu-link, .c-footer__text {
+        margin-right: 0px;
+        margin: 0 20px 0px 0;
+    }
+
+    .header_form_input input {
+        width: 100%;
+    }
+
+    .header_form_input2 {
+        margin: 0 0 0 0px;
+    }
+
+    .header_form_input {
+        position: relative;
+        margin: 0 0 8px 0;
+    }
+
+    .header_form_button button {
+        background: #783aab;
+        color: #fff;
+        height: 50px;
+        line-height: 48px;
+        width: 100%;
+        font-size: 15px;
+        border: none;
+        border-radius: 6px;
+    }
+
+    .header_form_button {
+        margin: 0 0 0 0px;
+    }
+
+    .header__favorite-button {
+        display: inline-block;
+        padding: 5px 15px;
+        text-decoration: none;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        position: absolute;
+        top: 11px;
+        right: 20px;
+    }
+  
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+    .grid-common_filtr {
+        display: block;
+        margin: 0;
+    }
+
+    .grid-common__col-3 {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .grid-common__col-9 {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+    .c-result-panel__row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .c-job-item__description:last-child {
+        margin-bottom: 0;
+        width: 320px;
+        height: auto;
+    }
+
+    .c-post-card__title, .u-text-3-line, .u-text-4-line, .u-text-5-line, .u-text-double-line, .u-text-single-line {
+        overflow: unset;
+        display: block;
+    }
+
+    .c-table-fixed {
+        display: block;
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    .c-table-fixed tbody {
+        display: block;
+    }
+
+    .c-table-fixed tbody tr {
+        display: block;
+    }
+
+    .c-job-item__info {
+        display: block;
+    }
+
+    .c-job-item__info-item {
+        display: block;
+        margin: 0 0 15px 0;
+    }
+
+
+    .c-table-fixed__content {
+        display: block;
+    }
+
+    .c-table-fixed__btn {
+        width: 100%;
+        padding-left: 0px;
+        margin: 20px 0 0 0;
+        display: block;
+    }
+    
+
+    .c-main-search__form {
+        margin: 0 0 10px 0;
+    }
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+
+    .header_form_input input {
+   
+        height: 49px;
+   
+    }
+
+    .header_form_arrow2 {
+        top: 27%;
+    }
+    .header_form_arrow {
+        position: absolute;
+        height: 7px;
+        width: 12px;
+        right: 15px;
+        top: 43%;
+    }
+
+    .c-index-fill-content {
+        padding: 30px 20px;
+        background-color: #fff;
+    }
+
+    .index-base-section {
+        padding: 25px 10px;
+    }
+
+    .w-gap-4xl {
+        margin-bottom: 40px;
+    }
+
+    body {
+        min-width: 100%;
+    }
+    .c-main-header__cell, .c-main-header__row {
+        display: block;
+        margin: 0 0 0px 0;
+    }
+
+    .header_form {
+        display: block;
+    }
+
+    .c-main-search__row {
+        display: block;
+    }
+
+    .c-main-search__cell {
+        -webkit-box-flex: 2;
+        -ms-flex: 2;
+        flex: 2;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        margin-left: 0px;
+    }
+
+    .c-footer__content {
+        display: block;
+    }
+
+    .grid-common__col-6 {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .snippet-small {
+        display: block;
+    }
+
+    .snippet-small__bar {
+        border-top: 0;
+        display: block;
+        float: left;
+        margin-top: 0;
+        padding: 10px 0 0 0px;
+        text-align: left;
+        width: 176px;
+    }
+
+    .snippet-small__actions {
+        display: block;
+        padding: 12px;
+        position: absolute;
+        left: -15px;
+        top: 0;
+        width: 36px;
+        z-index: 1;
+    }
+
+    .snippet-small {
+        margin: 0 0 10px 0;
+        padding: 21px 15px 17px 55px;
+        /* height: 30%; */
+        height: 160px;
+    }
+
+    .c-footer__menu-link, .c-footer__text {
+        margin-right: 0px;
+        margin: 0 10px 10px 0;
+    }
+
+    .header_form_input input {
+        width: 100%;
+    }
+
+    .header_form_input2 {
+        margin: 0 0 0 0px;
+    }
+
+    .header_form_input {
+        position: relative;
+        margin: 0 0 8px 0;
+    }
+
+    .header_form_button button {
+        background: #783aab;
+        color: #fff;
+        height: 50px;
+        line-height: 48px;
+        width: 100%;
+        font-size: 15px;
+        border: none;
+        border-radius: 6px;
+    }
+
+    .header_form_button {
+        margin: 0 0 0 0px;
+    }
+
+    .header__favorite-button {
+        display: inline-block;
+        padding: 5px 15px;
+        text-decoration: none;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        position: absolute;
+        top: 11px;
+        right: 20px;
+    }
+
+    .breadcrumbs__list {
+        padding: 0px 0;
+    }
+
+    .c-modal-bottom {
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: #fff;
+        text-shadow: 0 1px 2px rgba(0,0,0,.5);
+        z-index: 1050;
+        display: none !important;
+    }
+
+    .w-centered--xs {
+        width: 100%;
+    }
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+  
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+
+}
